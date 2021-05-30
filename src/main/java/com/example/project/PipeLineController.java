@@ -12,7 +12,7 @@ public class PipeLineController {
 	{
 		return "hello Priyesh";
 	}
-	@GetMapping("/hello")
+	@GetMapping("/goodMorning")
 	public String sayGoodMorning()
 	{
 		return "Good Morning Priyesh";

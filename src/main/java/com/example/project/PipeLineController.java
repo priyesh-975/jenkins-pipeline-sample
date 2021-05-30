@@ -17,6 +17,11 @@ public class PipeLineController {
 	{
 		return "Good Morning Priyesh";
 	}
+	@GetMapping("/test")
+	public String test()
+	{
+		return "test";
+	}
 	
 	
 	
